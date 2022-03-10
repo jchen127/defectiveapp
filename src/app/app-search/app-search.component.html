@@ -1,1 +1,26 @@
-<p>app-search works!</p>
+
+<section class="d-flex justify-content-center">
+
+
+  <div>
+
+    <!-- search text -->
+    <div class="fw-bold text-secondary" (mouseenter)="moveRight($event.target)">
+      <div><i class="bi bi-flower3 text-success"></i></div>
+      <div>
+        Defective Search
+      </div>
+      <div><i class="bi bi-flower1 text-danger"></i></div>
+    </div>
+
+    <input placeholder="Silly Input Goes Here" class="form-control" list="user_input_history">
+    <button>Search</button> <button>Feeling Defective Today</button>
+
+  </div>
+
+
+
+</section>
+<datalist id="user_input_history">
+  <option value="Way does I to makes a applications defective"></option>
+</datalist>

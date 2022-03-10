@@ -10,6 +10,11 @@ export class AppSearchComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  moveRight(curNode): void{
+    console.log("This will move right.");
   }
 
 }
